@@ -79,3 +79,6 @@ CMakeCache.txt
 # makefile
 MultiMedia_autogen
 MultiMedia
+
+# vscode configuration files
+compile_commands.json
