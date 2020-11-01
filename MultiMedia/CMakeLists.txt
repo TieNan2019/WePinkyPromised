@@ -12,7 +12,9 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 添加 Qt5Config.cmake
-set(CMAKE_PREFIX_PATH /home/pea/Qt5.9.5/5.9.5/gcc_64/lib/cmake/Qt5/)
+# set(CMAKE_PREFIX_PATH /home/pea/Qt5.9.5/5.9.5/gcc_64/lib/cmake/Qt5/)
+set(CMAKE_PREFIX_PATH /home/pea/WePinkyPromised/MultiMedia/gcc_64/lib/cmake/Qt5/)
+
 
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.
 # Check http://doc.qt.io/qt-5/deployment-android.html for more information.
