@@ -7,18 +7,12 @@
             "command": "cmake",
             "args": [
                 "CMakeLists.txt"
-            ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
+            ]
         },
         {
             "label": "make",
             "type": "shell",
             "command": "make",
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
             "dependsOn": [
                 "cmake"
             ]
