@@ -71,6 +71,10 @@ Thumbs.db
 *.dll
 *.exe
 
+# Qt5
+gcc_64
+
+
 # CMake temporary files
 CMakeFiles
 cmake_install.cmake
