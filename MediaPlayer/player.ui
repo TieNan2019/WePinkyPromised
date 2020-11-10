@@ -51,10 +51,10 @@
   <widget class="QSlider" name="musicProcess">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>450</y>
-     <width>591</width>
-     <height>16</height>
+     <x>90</x>
+     <y>470</y>
+     <width>531</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="orientation">
@@ -64,7 +64,7 @@
   <widget class="QPushButton" name="prev">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>120</x>
      <y>510</y>
      <width>80</width>
      <height>23</height>
@@ -77,20 +77,20 @@
   <widget class="QPushButton" name="pauseNPlay">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>300</x>
      <y>510</y>
      <width>80</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>Pause</string>
+    <string>Play</string>
    </property>
   </widget>
   <widget class="QPushButton" name="next">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>480</x>
      <y>510</y>
      <width>80</width>
      <height>23</height>
@@ -98,6 +98,42 @@
    </property>
    <property name="text">
     <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totalMediaLength">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>470</y>
+     <width>57</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0:00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="currentMediaLength">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>470</y>
+     <width>57</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0:00</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="playlist">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>256</width>
+     <height>341</height>
+    </rect>
    </property>
   </widget>
  </widget>

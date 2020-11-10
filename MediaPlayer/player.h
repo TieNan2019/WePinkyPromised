@@ -27,23 +27,24 @@ private slots:
 
         void on_mute_stateChanged(int arg1);
 
-        void on_pushButton_2_released();
-
-        void on_Prev_released();
-
-        void on_pushButton_released();
-
         void on_pauseNPlay_released();
 
         void on_next_released();
 
         void on_prev_released();
 
-        void on_prev_clicked();
+        void updateDuration(long );
+        void updatePosition(long );
+
+        void on_musicProcess_sliderMoved(int position);
+
+        void on_musicProcess_sliderPressed();
+
+        void on_musicProcess_sliderReleased();
+
+        void on_playlist_clicked(const QModelIndex &index);
 
 private:
-        QPushButton *b;
-
         Ui::Player *ui;
         /* player instance */
         QMediaPlayer *p;
